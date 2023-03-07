@@ -6,6 +6,10 @@ const apiClient = axios.create(
     }
 );
 
-export const retrieveHelloWorldPara = (username) => apiClient.get(`/hello-world/path-variable/${username}`)
+export const retrieveHelloWorldPara = (username) => apiClient.get(`/hello-world/path-variable/${username}`, {
+    headers: {
+        Authorization:''
+    }
+})
 
 export const retrieveHelloWorldBean = () => apiClient.get('/hello-world-bean')
