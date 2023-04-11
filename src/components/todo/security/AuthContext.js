@@ -1,7 +1,7 @@
-import { createContext, useContext, useState, isAuthenticated, setAuthenticated } from "react";
+ import { createContext, useContext, useState, isAuthenticated, setAuthenticated } from "react";
 
 //1: Create context
-export const AuthContext = createContext();
+export const AuthContext = createContext()
  
 //let's create a fast and easy hook
 export const useAuth = () => useContext(AuthContext)
@@ -35,4 +35,4 @@ export default function AuthProvider({ children }) {
             {children}
         </AuthContext.Provider>
     )
-}
+} 

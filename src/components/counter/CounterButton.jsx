@@ -1,4 +1,5 @@
 import { PropTypes } from 'prop-types'
+import './Counter.css'
 
 export default function CounterButton({ by, incrementMethod, decrementMethod }) {
 
