@@ -1,3 +1,6 @@
+# This prooject is a Udemy Course from Ranga Karanam called [NEW] Master Spring Boot 3 & Spring Framework 6 with Java
+All of the material is code-along, with some comments and slight modifications to my linux-based system, eg. packet versioning. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
